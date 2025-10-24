@@ -32,4 +32,4 @@ Res=HumanMessage(
 
 Ans=LLM.invoke([Res])
 
-print(Ans)
+print(Ans.content)

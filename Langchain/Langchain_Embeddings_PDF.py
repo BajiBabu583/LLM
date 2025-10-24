@@ -20,4 +20,4 @@ LLM2=GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
 Embed=LLM2.embed_query(PDF_Text)
 
-print(Embed)
+print(Embed[:10])

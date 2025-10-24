@@ -25,9 +25,6 @@ def get_summery(text:Baji):
             {"system_instruction":"You are an AI assistant you have to summarize the user prompt"}
             )
            )
-
-
-
         return Ans.text
     
     finally:
